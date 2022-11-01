@@ -20,6 +20,11 @@ public class CandyFactory {
         System.out.println("The type of candy is " + type);
         System.out.println("There are " + amount + " pieces of candy");
         System.out.println("The flavor is " + flavor);
-        System.out.println("Is the candy King Sized? " + kingsized );
+        if(kingsized == true){
+            System.out.println("The candy is King Sized");
+        }
+        else{
+            System.out.println("The candy sadly is not King Sized");
+        }
     }
 }
